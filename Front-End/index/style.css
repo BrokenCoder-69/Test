@@ -1,0 +1,59 @@
+.glow-button {
+    background-color: #4F46E5;
+    box-shadow: 0 0 10px #22C55E;
+    transition: all 0.3s ease-in-out;
+  }
+  .glow-button:hover {
+    background-color: #4338CA;
+    box-shadow: 0 0 20px #22C55E, 0 0 30px #22C55E;
+  }
+
+  /* Navbar enhancements */
+  #navbar {
+    transition: top 0.3s ease-in-out, background 0.3s ease-in-out;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .nav-hidden {
+    top: -100px;
+  }
+
+
+
+#ok {
+    position: relative;
+    z-index: 1;
+    overflow: hidden; /* Optional: prevents scrollbars if content overflows */
+  }
+
+#ok::before {
+    content: "";
+    background: url('./Resources/bg1.jpg') center/cover no-repeat;
+    opacity: 0.3; /* Adjust as needed for text readability */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+
+#ok2 {
+    position: relative;
+    z-index: 1;
+    overflow: hidden; /* Optional: prevents scrollbars if content overflows */
+  }
+
+#ok2::before {
+    content: "";
+    background: url('./Resources/bg2.jpg') center/cover no-repeat;
+    opacity: 0.3; /* Adjust as needed for text readability */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
